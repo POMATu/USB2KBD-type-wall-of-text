@@ -1,0 +1,14 @@
+#!/bin/bash
+
+##xsel --clipboard | xvkbd -xsendevent -file -
+##xsel --clipboard | xvkbd --delay 0 -file -
+##xsel --clipboard | xvkbd -file -
+
+#xsel --clipboard | xvkbd -file -
+#xdotool keyup a
+##echo type `xsel --clipboard` | xdotool -
+##xsel --clipboard | xargs -0 xdotool type --clearmodifiers
+##xclip -o | xdotool type --clearmodifiers --file -
+
+
+xsel --clipboard | sudo perl /home/user/usbkbd/type.pl

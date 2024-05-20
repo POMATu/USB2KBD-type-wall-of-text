@@ -1,0 +1,4 @@
+#!/bin/bash
+
+maim -s /tmp/scrot.jpg && zbarimg /tmp/scrot.jpg && rm /tmp/scrot.jpg
+
